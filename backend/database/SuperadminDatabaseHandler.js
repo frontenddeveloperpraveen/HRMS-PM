@@ -1,9 +1,7 @@
 const { MongoClient } = require("mongodb");
 
 // Use environment variables for sensitive information
-const uri =
-  process.env.MONGODB_URI ||
-  "mongodb+srv://praveenkr:Praveen2006@cluster0.iooxltd.mongodb.net/AmasQIS";
+const uri = process.env.MONGODB_URI || "Add mongo DB URI HEre";
 const client = new MongoClient(uri);
 
 let stats;
