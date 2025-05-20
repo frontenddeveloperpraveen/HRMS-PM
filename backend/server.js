@@ -42,8 +42,9 @@ io.use(async (socket, next) => {
         //   "http://localhost:3000" ||
         //   "http://192.168.137.1:3000",
         //"api.example.com",
-        "*",
-        // "http://localhost:3000",
+        "https://devhrms-pm.amasqis.ai/",
+        "http://localhost:3000",
+        "http://185.199.53.177:5000/",
       ],
     });
 
@@ -81,5 +82,5 @@ io.on("connection", (socket) => {
 
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {
-  console.log(`🚀 Server running on http://localhost:${PORT}`);
+  console.log(`🚀 Server running on ${PORT}`);
 });
