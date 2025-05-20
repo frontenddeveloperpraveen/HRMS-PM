@@ -8,7 +8,7 @@ const {
 } = require("date-fns");
 const { format, parseISO } = require("date-fns");
 
-const uri = "ADD mongo DB URI HERE"; // MongoDB connection string
+const uri = "mongodb+srv://praveenkr:Praveen2006@cluster0.iooxltd.mongodb.net/"; // MongoDB connection string
 const client = new MongoClient(uri);
 let employee, attendance;
 let packagesCollection;

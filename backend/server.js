@@ -42,7 +42,8 @@ io.use(async (socket, next) => {
         //   "http://localhost:3000" ||
         //   "http://192.168.137.1:3000",
         //"api.example.com",
-        "http://localhost:3000",
+        "*",
+        // "http://localhost:3000",
       ],
     });
 
